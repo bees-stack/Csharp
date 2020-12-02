@@ -1,0 +1,201 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="15.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{46F9E2CF-3383-4EAF-BC5A-F7E83A0157E5}</ProjectGuid>
+    <OutputType>WinExe</OutputType>
+    <RootNamespace>StudentManage</RootNamespace>
+    <AssemblyName>StudentManage</AssemblyName>
+    <TargetFrameworkVersion>v3.5</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+    <Deterministic>true</Deterministic>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="System" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Deployment" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="PublicClass\Dao.cs" />
+    <Compile Include="PublicForm\Addinfo.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="PublicForm\Addinfo.Designer.cs">
+      <DependentUpon>Addinfo.cs</DependentUpon>
+    </Compile>
+    <Compile Include="PublicForm\Alterinfo.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="PublicForm\Alterinfo.Designer.cs">
+      <DependentUpon>Alterinfo.cs</DependentUpon>
+    </Compile>
+    <Compile Include="PublicForm\Login.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="PublicForm\Login.Designer.cs">
+      <DependentUpon>Login.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Program.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="PublicForm\Forgetpaw.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="PublicForm\Forgetpaw.Designer.cs">
+      <DependentUpon>Forgetpaw.cs</DependentUpon>
+    </Compile>
+    <Compile Include="PublicForm\Publicuser.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="PublicForm\Publicuser.Designer.cs">
+      <DependentUpon>Publicuser.cs</DependentUpon>
+    </Compile>
+    <Compile Include="PublicForm\Register.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="PublicForm\Register.Designer.cs">
+      <DependentUpon>Register.cs</DependentUpon>
+    </Compile>
+    <Compile Include="PublicForm\Superuser.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="PublicForm\Superuser.Designer.cs">
+      <DependentUpon>Superuser.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Resource.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>Resource.resx</DependentUpon>
+    </Compile>
+    <Compile Include="StudentDataSet.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>StudentDataSet.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="StudentDataSet1.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>StudentDataSet1.xsd</DependentUpon>
+    </Compile>
+    <EmbeddedResource Include="Properties\Resources.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>Resources.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <Compile Include="Properties\Resources.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Resources.resx</DependentUpon>
+    </Compile>
+    <EmbeddedResource Include="PublicForm\Addinfo.resx">
+      <DependentUpon>Addinfo.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="PublicForm\Alterinfo.resx">
+      <DependentUpon>Alterinfo.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="PublicForm\Forgetpaw.resx">
+      <DependentUpon>Forgetpaw.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="PublicForm\Login.resx">
+      <DependentUpon>Login.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="PublicForm\Publicuser.resx">
+      <DependentUpon>Publicuser.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="PublicForm\Register.resx">
+      <DependentUpon>Register.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="PublicForm\Superuser.resx">
+      <DependentUpon>Superuser.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Resource.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>Resource.Designer.cs</LastGenOutput>
+    </EmbeddedResource>
+    <None Include="app.config" />
+    <None Include="Properties\Settings.settings">
+      <Generator>SettingsSingleFileGenerator</Generator>
+      <LastGenOutput>Settings.Designer.cs</LastGenOutput>
+    </None>
+    <Compile Include="Properties\Settings.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Settings.settings</DependentUpon>
+      <DesignTimeSharedInput>True</DesignTimeSharedInput>
+    </Compile>
+    <None Include="StudentDataSet.xsc">
+      <DependentUpon>StudentDataSet.xsd</DependentUpon>
+    </None>
+    <None Include="StudentDataSet.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>StudentDataSet.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="StudentDataSet.xss">
+      <DependentUpon>StudentDataSet.xsd</DependentUpon>
+    </None>
+    <None Include="StudentDataSet1.xsc">
+      <DependentUpon>StudentDataSet1.xsd</DependentUpon>
+    </None>
+    <None Include="StudentDataSet1.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>StudentDataSet1.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="StudentDataSet1.xss">
+      <DependentUpon>StudentDataSet1.xsd</DependentUpon>
+    </None>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\退出1.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\退出2.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\修改1.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\chercked1.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\timer1.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\关闭1.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\刷新1.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\添加1.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Background1.jpg" />
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+</Project>

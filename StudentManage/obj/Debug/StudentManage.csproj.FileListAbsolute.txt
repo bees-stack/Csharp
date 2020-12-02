@@ -1,0 +1,17 @@
+C:\Users\admin\Desktop\LEEYANGY\StudentManage\StudentManage\bin\Debug\StudentManage.exe
+C:\Users\admin\Desktop\LEEYANGY\StudentManage\StudentManage\bin\Debug\StudentManage.pdb
+C:\Users\admin\Desktop\LEEYANGY\StudentManage\StudentManage\obj\Debug\StudentManage.csprojAssemblyReference.cache
+C:\Users\admin\Desktop\LEEYANGY\StudentManage\StudentManage\obj\Debug\StudentManage.Properties.Resources.resources
+C:\Users\admin\Desktop\LEEYANGY\StudentManage\StudentManage\obj\Debug\StudentManage.Resource.resources
+C:\Users\admin\Desktop\LEEYANGY\StudentManage\StudentManage\obj\Debug\StudentManage.csproj.GenerateResource.cache
+C:\Users\admin\Desktop\LEEYANGY\StudentManage\StudentManage\obj\Debug\StudentManage.csproj.CoreCompileInputs.cache
+C:\Users\admin\Desktop\LEEYANGY\StudentManage\StudentManage\obj\Debug\StudentManage.exe
+C:\Users\admin\Desktop\LEEYANGY\StudentManage\StudentManage\obj\Debug\StudentManage.pdb
+C:\Users\admin\Desktop\LEEYANGY\StudentManage\StudentManage\bin\Debug\StudentManage.exe.config
+C:\Users\admin\Desktop\LEEYANGY\StudentManage\StudentManage\obj\Debug\StudentManage.Login.resources
+C:\Users\admin\Desktop\LEEYANGY\StudentManage\StudentManage\obj\Debug\StudentManage.PublicForm.Superuser.resources
+C:\Users\admin\Desktop\LEEYANGY\StudentManage\StudentManage\obj\Debug\StudentManage.PublicForm.Addinfo.resources
+C:\Users\admin\Desktop\LEEYANGY\StudentManage\StudentManage\obj\Debug\StudentManage.PublicForm.Forgetpaw.resources
+C:\Users\admin\Desktop\LEEYANGY\StudentManage\StudentManage\obj\Debug\StudentManage.PublicForm.Publicuser.resources
+C:\Users\admin\Desktop\LEEYANGY\StudentManage\StudentManage\obj\Debug\StudentManage.PublicForm.Register.resources
+C:\Users\admin\Desktop\LEEYANGY\StudentManage\StudentManage\obj\Debug\StudentManage.PublicForm.Alterinfo.resources
